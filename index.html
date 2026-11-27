@@ -270,6 +270,24 @@ main{background:radial-gradient(60% 400px at 50% 0,#2aa8ff22,transparent),radial
  .herocap{left:14px;right:14px;text-align:center;border-radius:14px;font-size:11px;bottom:20px}
  .scrollhint{display:none}
 }
+
+/* ADD-ONS v3 */
+.addgrp{font:400 clamp(16px,3vw,20px) Bungee;color:var(--gold);text-align:center;margin:34px 0 4px;letter-spacing:.04em;text-shadow:0 0 16px #ffc83d66}
+.addgrp:first-of-type{margin-top:8px}
+.agrid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px 20px;padding-top:14px}
+.agrid .gift .emo{margin:0;border-radius:18px 18px 0 0;border-bottom:5px solid;border-image:repeating-linear-gradient(-45deg,var(--red) 0 10px,#fff 10px 20px) 5;background:radial-gradient(circle at 50% 60%,#fff,#fff3d6);height:104px;display:grid;place-items:center;font-size:46px;padding-top:10px}
+.agrid .gift .emo span{display:inline-block;transition:transform .4s}
+.agrid .gift.hov .emo span{transform:scale(1.15) rotate(-4deg)}
+.have{align-self:flex-start;background:var(--green);color:#fff;font:900 10px Nunito;letter-spacing:.16em;border-radius:99px;padding:3px 9px}
+.hookup{margin-top:34px;background:linear-gradient(160deg,#0d2b4a,#07182c);border:3px solid var(--gold);border-radius:20px;padding:22px 22px 18px;box-shadow:0 18px 40px #0008,0 0 30px #ffc83d33}
+.hookup h3{font-family:Bungee;font-weight:400;color:var(--gold);margin:0 0 4px;font-size:clamp(18px,3.4vw,26px);text-align:center}
+.hookup .hs{text-align:center;color:#cfe3ff;font-weight:700;margin:0 0 14px;font-size:14px}
+.hookup ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+.hookup li{display:flex;gap:10px;align-items:flex-start;background:#ffffff10;border:1.5px dashed #ffc83d77;border-radius:12px;padding:10px 12px;font-weight:700;font-size:14px;color:#fff}
+.hookup li b{color:var(--gold)}
+.hookup li .ic{font-size:22px;flex:none;line-height:1.1}
+@media(max-width:860px){.agrid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){.agrid{grid-template-columns:1fr;gap:20px}.hookup ol{grid-template-columns:1fr}.hookup{padding:18px 14px 14px}}
 </style></head><body>
 <canvas id="fx"></canvas>
 
@@ -386,6 +404,54 @@ main{background:radial-gradient(60% 400px at 50% 0,#2aa8ff22,transparent),radial
   <div class="card reveal" style="grid-column:1/-1"><div class="gift"><span class="nr">ITEM 07</span><div class="tx" style="padding-top:34px"><div class="by">THE CONNECTION CREW</div><h3>Cables &amp; Hub Bundle</h3><div class="cableicon" aria-hidden="true"><span>🖥️</span><span>🔌</span><span>🔗</span><span>⚡</span></div><div class="det">15 ft fiber DisplayPort cable · 15 ft active USB 3.0 extension · Sabrent 4-port powered USB hub</div><div class="elf">Long cables so the PC can hide while the drivers shine. Twinkle-light-grade wiring.</div></div></div></div>
  </div>
  <p class="rig">⚙️ Powered by <b>Dad's PC with an RTX 5090</b> · Game: <b>Forza on PC</b> · Audio: wireless Logitech headset 🎧</p>
+</section>
+
+<div class="checkers"></div>
+
+<section id="addons">
+ <h2 class="foil">Surround Sound, Seat Shaker &amp; Clean Cabling</h2>
+ <p class="sub">The elves added a few extras to the sleigh. Now the rig rumbles, roars and stays tidy.</p>
+ <div class="addgrp">🔊 Surround Sound</div>
+ <div class="agrid">
+  <div class="card reveal"><div class="gift"><span class="nr">ITEM 08</span><div class="emo" aria-hidden="true"><span>🔊</span></div><div class="tx"><div class="by">FROM STEELSERIES</div><h3>Arena 9 · 5.1 Surround Speakers</h3><div class="det">Five speakers plus a subwoofer. The rear speakers are wireless.</div><div class="elf">Hear the car behind you before you see it. Sneaky passes, busted.</div></div></div></div>
+  <div class="card reveal"><div class="gift"><span class="nr">ITEM 09</span><div class="emo" aria-hidden="true"><span>🎛️</span></div><div class="tx"><div class="by">FROM TRAK RACER</div><h3>5-Speaker Mount Kit for the TR8 PRO</h3><div class="det">Holds the speakers right on the rig, aimed at the drivers</div><div class="elf">Speakers ride along with you. Front row seats, every lap.</div></div></div></div>
+ </div>
+ <div class="addgrp">💥 Seat Shaker</div>
+ <div class="agrid">
+  <div class="card reveal"><div class="gift"><span class="nr">ITEM 10</span><div class="emo" aria-hidden="true"><span>💥</span></div><div class="tx"><div class="by">FROM TRAK RACER</div><h3>Pro Haptic Kit · 200W Amp + Bass Shaker</h3><div class="det">Makes the seat rumble with the engine, bumps and curbs</div><div class="elf">Feel every curb in your back. Rudolph says it tickles.</div></div></div></div>
+  <div class="card reveal"><div class="gift"><span class="nr">ITEM 11</span><div class="emo" aria-hidden="true"><span>🪑</span></div><div class="tx"><div class="by">FROM TRAK RACER</div><h3>Under-Seat Bass Shaker Mount</h3><div class="det">Bolts the shaker right under the GT Pro seat</div><div class="elf">Keeps the rumble right where the action is.</div></div></div></div>
+  <div class="card reveal"><div class="gift"><span class="nr">ITEM 12</span><div class="emo" aria-hidden="true"><span>🎵</span></div><div class="tx"><div class="by">FROM CREATIVE</div><h3>Sound Blaster PLAY! 3 · USB Sound Card</h3><div class="det">Sends the game’s rumble sound to the shaker amp</div><div class="elf">A tiny box that turns sound into shake. Elf magic, basically.</div></div></div></div>
+ </div>
+ <div class="addgrp">🕹️ Stick Shift &amp; Handbrake</div>
+ <div class="agrid">
+  <div class="card reveal"><div class="gift"><span class="nr">ITEM 13</span><div class="emo" aria-hidden="true"><span>🕹️</span></div><div class="tx"><div class="have">✔ ALREADY IN THE GARAGE</div><div class="by">FROM LOGITECH G</div><h3>RS H-Shifter</h3><div class="det">Six speeds plus reverse. Plugs into the G PRO wheel base.</div><div class="elf">Clutch in, shift, go. Real drivers row their own gears.</div></div></div></div>
+  <div class="card reveal"><div class="gift"><span class="nr">ITEM 14</span><div class="emo" aria-hidden="true"><span>🛑</span></div><div class="tx"><div class="have">✔ ALREADY IN THE GARAGE</div><div class="by">FROM AIKEEC</div><h3>USB Handbrake</h3><div class="det">For drifting around corners like a pro</div><div class="elf">Pull it for the drift. Not for stopping arguments.</div></div></div></div>
+  <div class="card reveal"><div class="gift"><span class="nr">ITEM 15</span><div class="emo" aria-hidden="true"><span>🔩</span></div><div class="tx"><div class="by">FROM TRAK RACER</div><h3>Right-Side Handbrake Mount</h3><div class="det">Holds the handbrake right next to the shifter</div><div class="elf">Bolted on tight so the drift stays in the game.</div></div></div></div>
+ </div>
+ <div class="addgrp">🔌 Clean Cabling</div>
+ <div class="agrid">
+  <div class="card reveal"><div class="gift"><span class="nr">ITEM 16</span><div class="emo" aria-hidden="true"><span>🔗</span></div><div class="tx"><div class="have">✔ ALREADY IN THE GARAGE</div><div class="by">FROM SABRENT</div><h3>4-Port Powered USB Hub</h3><div class="det">Rides on the rig so gadgets plug in close by</div><div class="elf">One hub, lots of plugs. The PC only needs one cable from it.</div></div></div></div>
+  <div class="card reveal"><div class="gift"><span class="nr">ITEM 17</span><div class="emo" aria-hidden="true"><span>🖥️</span></div><div class="tx"><div class="by">FROM RUIPRO</div><h3>Fiber HDMI 2.1 Cable · 25 ft</h3><div class="det">Carries the full 240Hz picture from the PC to the G9</div><div class="elf">Thin as spaghetti, fast as a reindeer.</div></div></div></div>
+  <div class="card reveal"><div class="gift"><span class="nr">ITEM 18</span><div class="emo" aria-hidden="true"><span>➰</span></div><div class="tx"><div class="by">THE CONNECTION CREW</div><h3>16 ft Active USB Extensions × 3</h3><div class="det">Long USB runs from the rig back to Dad’s PC</div><div class="elf">Three magic tunnels so the PC can hide across the room.</div></div></div></div>
+  <div class="card reveal"><div class="gift"><span class="nr">ITEM 19</span><div class="emo" aria-hidden="true"><span>⚡</span></div><div class="tx"><div class="by">FROM CRST</div><h3>6-Outlet Mountable Power Strip</h3><div class="det">Screws onto the rig. Every gadget gets its own switch.</div><div class="elf">Everything plugs in right on the rig. No crawling under desks.</div></div></div></div>
+  <div class="card reveal"><div class="gift"><span class="nr">ITEM 20</span><div class="emo" aria-hidden="true"><span>🔌</span></div><div class="tx"><div class="by">FROM UTILITECH</div><h3>15 ft Grounded Extension Cord</h3><div class="det">One cord brings power to the whole rig</div><div class="elf">One cord to rule them all.</div></div></div></div>
+  <div class="card reveal"><div class="gift"><span class="nr">ITEM 21</span><div class="emo" aria-hidden="true"><span>🛤️</span></div><div class="tx"><div class="by">FROM STALWART</div><h3>10 ft 3-Channel Floor Cord Covers × 2</h3><div class="det">Cables hide under these across the floor</div><div class="elf">No tripping, no tangles, no tears.</div></div></div></div>
+  <div class="card reveal"><div class="gift"><span class="nr">ITEM 22</span><div class="emo" aria-hidden="true"><span>🎀</span></div><div class="tx"><div class="by">FROM CABLE MATTERS</div><h3>Hook-and-Loop Cable Ties · 100 Pack</h3><div class="det">Reusable straps to bundle the cables neatly</div><div class="elf">Wrapped up tighter than a Christmas present.</div></div></div></div>
+  <div class="card reveal"><div class="gift"><span class="nr">ITEM 23</span><div class="emo" aria-hidden="true"><span>🧶</span></div><div class="tx"><div class="by">FROM KABLE KONTROL</div><h3>Braided Cable Sleeves · ¾″ &amp; ½″</h3><div class="det">One for the monitor stand, one for the rig tubes</div><div class="elf">Cables wear sweaters too. Very festive.</div></div></div></div>
+ </div>
+
+ <div class="hookup reveal">
+  <h3>🧝 How It All Hooks Up</h3>
+  <p class="hs">The elves drew the plan. Five cables cross the floor, and that's it.</p>
+  <ol>
+   <li><span class="ic">🖥️</span><span><b>Big screen:</b> one fiber HDMI cable runs from Dad's PC to the G9.</span></li>
+   <li><span class="ic">🏎️</span><span><b>Wheel:</b> the pedals and H-shifter plug into the wheel base, and the base gets its own USB extension to the PC.</span></li>
+   <li><span class="ic">🔗</span><span><b>Hub:</b> the Sabrent hub on the rig holds the handbrake and the shaker's sound card, with a second extension to the PC.</span></li>
+   <li><span class="ic">🔊</span><span><b>Sound:</b> the Arena 9 subwoofer sits up front on a third extension. The rear speakers are wireless.</span></li>
+   <li><span class="ic">⚡</span><span><b>Power:</b> one cord feeds the power strip mounted on the rig. Everything plugs in there.</span></li>
+   <li><span class="ic">🎀</span><span><b>Tidy:</b> cables hide under the floor covers and get sleeved up the stand and rig. Zero spaghetti.</span></li>
+  </ol>
+ </div>
 </section>
 
 <div class="checkers"></div>
